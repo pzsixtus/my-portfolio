@@ -8,8 +8,8 @@ function Projects() {
       title: "Portfolio Website",
       description: "A responsive personal portfolio built with React.",
       tech: "React, CSS",
-      github: "https://github.com/pzsixtus/6tus-web",
-      demo: "https://yourportfolio.com",
+      github: "https://github.com/pzsixtus/my-portfolio",
+      demo: "https://my-portfolio.com",
     },
     {
       id: 2,
