@@ -1,0 +1,85 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #1e1b4b;
+  color: white;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #93c5fd;
+}
+
+/* Active link */
+.active {
+  border-bottom: 2px solid #2563eb;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .nav-links {
+    margin-top: 15px;
+  }
+}
+
+.welcome {
+  margin-left: 20px;
+  font-size: 14px;
+  color: #e0e1dd;
+}
+
+.logout-btn {
+  margin-left: 15px;
+  padding: 6px 12px;
+  background-color: #2563eb;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.logout-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.header {
+  transition: box-shadow 0.3s ease;
+}
+
+.header.scrolled {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.theme-btn {
+  margin-left: 20px;
+  padding: 6px 10px;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.theme-btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
